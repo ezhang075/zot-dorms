@@ -1,12 +1,11 @@
 import './dorm-gallery.css'
-import mesaCourt from '../assets/mesa-court.jpg'
 
 type DormGalleryProps = {
     galleryImg: string;
-    img2: string;
-    img3: string;
-    img4: string;
-    img5: string;
+    img2?: string;
+    img3?: string;
+    img4?: string;
+    img5?: string;
 }
 
 const DormGallery = ({ galleryImg, img2, img3, img4, img5 }: DormGalleryProps) => {

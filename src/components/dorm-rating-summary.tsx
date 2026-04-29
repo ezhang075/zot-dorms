@@ -1,4 +1,4 @@
-import {FaStar, FaRegStar, FaStarHalfAlt} from 'react-icons/fa';
+import {FaStar, FaStarHalfAlt} from 'react-icons/fa';
 
 type DormRatingSummaryProps = {
     rating: number;

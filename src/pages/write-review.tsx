@@ -5,7 +5,7 @@ import DropDown from "../components/drop-down";
 import { useState } from 'react';
 
 const WriteReview = () => {
-    const [currentStep, setCurrentStep] = useState(1);
+    const [currentStep, _setCurrentStep] = useState(1);
 
     let dorms: string[] = ['Middle Earth', 'Mesa Court', 'Palo Verde']
 
