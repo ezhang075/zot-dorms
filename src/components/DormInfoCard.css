@@ -1,0 +1,78 @@
+.write-a-review-btn {
+    background-color: #001e40;
+    border-radius: 8px;
+    color: #FFFFFF;
+    height: 50px;
+    width: 285px;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    border: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.write-a-review-btn:hover {
+    opacity: 0.90;
+}
+
+.dorm-price {
+    font-weight: bold;
+    font-size: 25px;
+    color: #001e40;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #001e40;
+}
+
+.price-period {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+.starting-at {
+    font-size: 0.75rem;
+    color: #6b7280;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.price-container {
+    display: flex;
+    align-items: baseline;
+    gap: 2px;
+    margin-bottom: 25px;
+}
+
+/* .dorm-page-content {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+} */
+
+/* .dorm-main-content {
+    flex: 1;
+    min-width: 0;
+} */
+
+.dorm-page-side {
+    width: 300px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 80px; 
+    margin: 0;
+}
+
+.dorm-info-card {
+    background-color: #f3f4f6;
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 0;
+}

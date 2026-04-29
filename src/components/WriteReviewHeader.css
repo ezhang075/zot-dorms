@@ -1,0 +1,12 @@
+.write-review-title {
+    color: #001e40;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.write-review-description {
+    color: #6b7280;
+    margin-bottom: 75px;
+}

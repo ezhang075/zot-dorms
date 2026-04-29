@@ -1,0 +1,27 @@
+.rating-bar {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem; 
+    width: 100%;
+}
+
+.rating-bar-label {
+    font-size: 1rem;
+    color: #4b5563;
+}
+
+.rating-bar-container {
+    background-color: #e5e7eb;
+    height: 15px;
+    width: 100%;
+    /* width: 775px; */
+    border-radius: 9999px;
+    overflow: hidden;
+}
+
+.rating-bar-fill {
+    height: 100%;
+    border-radius: 9999px;
+}

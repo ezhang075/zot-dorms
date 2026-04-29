@@ -1,0 +1,32 @@
+.student-review-title {
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    color: #0F1F33;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.sort-by-icon {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.sort-by {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.price-container {
+    display: flex;
+    align-items: baseline;
+    gap: 2px;
+}
+

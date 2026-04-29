@@ -1,0 +1,38 @@
+.step-indicator {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 75px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.step-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #d1d5db;
+    color: #6b7280;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.step-circle.active {
+    background-color: #001e40;
+    color: #ffffff;
+}
+
+.step-label { color: #6b7280; }
+.step-label.active { color: #001e40; font-weight: 600; }
+
+.step-line {
+    width: 60px;
+    height: 1px;
+    background-color: #d1d5db;
+}

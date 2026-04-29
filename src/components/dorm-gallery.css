@@ -1,0 +1,28 @@
+.dorm-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    width: 100%;
+    height: 550px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 0 2rem 0;
+}
+
+.gallery-main {
+    height: 100%;
+}
+
+.gallery-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    height: 100%;
+}
+
+.dorm-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

@@ -2,6 +2,7 @@ import {FaStar} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 
 type DormCardProps = {
+    id: string;
     dormName: string;
     rating: number;
     description: string;
@@ -9,11 +10,11 @@ type DormCardProps = {
     image: string;
 }
 
-const DormCard = ({ dormName, rating, description, price, image }: DormCardProps) => {
+const DormCard = ({ dormName, rating, description, price, image, id }: DormCardProps) => {
     return (
         <div className="dorm-card">
             <div className="dorm-image">
-                <img src={image} alt="Mesa Court" />
+                <img src={image} alt={dormName} />
             </div>
             <div className="dorm-card-content">
                 <div className="dorm-header">
@@ -28,7 +29,7 @@ const DormCard = ({ dormName, rating, description, price, image }: DormCardProps
                         <p className="starting">STARTING AT </p>
                         <p className="dorm-price">{price}</p>
                     </div>
-                    <Link to="/reviews">
+                    <Link to={`/dorm/${id}`}>
                         <button className="dorm-review-button">Read Reviews</button>
                     </Link>
                 </div>

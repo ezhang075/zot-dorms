@@ -1,0 +1,41 @@
+.review-title {
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    color: #0F1F33;
+}
+
+.star {
+    margin-right: 1%;
+}
+.StarRating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    /* margin: 5rem; */
+}
+
+.rating-text {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0F1F33;
+}
+
+.review-count {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.star-distribution {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+/* .review-section {
+    background-color: white;
+} */

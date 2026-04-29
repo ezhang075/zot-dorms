@@ -5,6 +5,7 @@ import About from './pages/about.tsx'
 import WriteReview from './pages/write-review.tsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Footer from './components/footer.tsx'
+import DormPage from './pages/dorm-page.tsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/write-review' element={<WriteReview />} />
+        <Route path='/dorm/:id' element={<DormPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

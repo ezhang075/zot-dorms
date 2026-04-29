@@ -7,7 +7,8 @@ const Home = () => {
             <h1 className=" dorm-title">Dorms at UC Irvine</h1>
                 <div className="dorm-grid">
                     {dorms.map((dorm) => (
-                        <DormCard 
+                        <DormCard
+                            id={dorm.id}
                             dormName={dorm.name}
                             rating={dorm.rating}
                             description={dorm.description}
